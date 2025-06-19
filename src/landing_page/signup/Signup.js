@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion';
 import axios from 'axios';
 import OpenAccount from '../OpenAccount';
-
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 function Signup() {
       
  const [phone, setPhone] = useState("");
@@ -15,7 +15,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3002/send-otp', { phone });
+      const response = await axios.post(`${backendUrl}/send-otp`, { phone });
       if (response.data.success) {
         setOtpSent(true);
         alert("OTP sent successfully!");
