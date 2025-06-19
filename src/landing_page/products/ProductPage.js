@@ -11,8 +11,8 @@ function ProductPage() {
  <Hero/>
  <LeftSecetion
  imageUrl="Media\image\kite.png"
- productName="Kite"
- productDesription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an   elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
+ productName="Falcon"
+ productDesription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an   elegant UI, and more. Enjoy the Falcon experience seamlessly on your Android and iOS devices."
  tryDemo="Try demo"
  learnMore="Learn more"
  googlePly=""
@@ -44,9 +44,9 @@ function ProductPage() {
  />
 <RightSecetion
   imageUrl="Media\image\kiteconnect.png"
- productName="Kite Connect API"
+ productName="Falcon Connect API"
  productDesription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
- kiteConnect="Kite Connect"
+ kiteConnect="Falcon Connect"
  tryDemo=""
  learnMore=""
 
